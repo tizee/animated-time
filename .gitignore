@@ -10,6 +10,7 @@ lib
 build
 dist
 .cache
+typings
 
 # test
 coverage

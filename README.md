@@ -1,10 +1,9 @@
-# ts-webpack-boilerplate
+<div><h1>Animated Time</h1>
+<p>
+Animation time function visualization using SVG/Canvas and support for exporting
+</p>
+</div>
 
-A simple TypeScript boilerplate with webpack configuration.
+## Why?
 
-## Related Projects
-
-- [ts-rollup-boilerplate](https://github.com/tizee/ts-rollup-boilerplate)
-- [ts-react-boilerplate](https://github.com/tizee/ts-react-boilerplate)
-- [ts-simple-boilerplate](https://github.com/tizee/ts-simple-boilerplate)
-- [ts-gulp-boilerplate](https://github.com/tizee/ts-gulp-boilerplate)
+This is an app help me study SVG and React Redux.

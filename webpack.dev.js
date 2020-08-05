@@ -10,12 +10,13 @@ module.exports = merge(common, {
   devServer: {
     contentBase: './dist',
     historyApiFallback: true,
+    port: '8000',
   },
-  plugins: [
-    new BundleAnalyzerPlugin({
-      analyzerMode: 'server',
-      analyzerHost: '127.0.0.1',
-      analyzerPort: 'auto',
-    }),
-  ],
+  // plugins: [
+  //   new BundleAnalyzerPlugin({
+  //     analyzerMode: 'server',
+  //     analyzerHost: '127.0.0.1',
+  //     analyzerPort: '9527',
+  //   }),
+  // ],
 });

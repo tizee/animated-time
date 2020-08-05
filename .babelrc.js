@@ -4,7 +4,7 @@ const presets = [
   [
     '@babel/preset-typescript',
     {
-      isTsx: false, // Forcibly enables jsx parsing.
+      isTsx: true, // Forcibly enables jsx parsing.
       //  jsxPragma: 'React', // Replace the function used when compiling JSX expressions
       allExtensions: false, // Indicates that every file should be parsed as TS or TSX (depending on the isTSX option).
       allowNamespaces: true, // Enables compilation of TypeScript namespaces.
